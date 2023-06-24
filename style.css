@@ -1,0 +1,78 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:azure
+}
+
+#calc {
+  width: 400px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+#display {
+  width: 400px;
+  height: 70px;
+  margin: 10px;
+  border-style: outset;
+  font-size: 28px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0px 10px;
+  background-color: white;
+}
+
+
+button {
+  width: 95px;
+  height: 70px;
+  margin: 2.5px;
+  font-size: 20px;
+}
+
+#equals,#plus,#minus,#multiply,#divide,#clear{
+  border-style: groove;
+  border-radius: 4px;
+}
+
+#equals {
+  background-color: rgb(8, 158, 8);
+  border-color: rgb(8, 158, 8);
+}
+
+#plus,#minus,#multiply,#divide{
+  background-color: rgb(236, 157, 12);
+  border-color: rgb(236, 157, 12);
+}
+
+#decor {
+  width: 400px;
+  padding: 12px;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  justify-content: space-between;
+}
+
+#top-row {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#clear {
+  height: 35px;
+  background-color: rgb(235, 42, 42);
+  border-color: brown;
+}
+
+#link {
+  height: 35px;
+}
+
