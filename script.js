@@ -44,11 +44,19 @@ function updateDisplay(event) {
     }
   } else if (operator === '') {
     if (event.target.id === 'decimal' && (display.textContent).includes('.')) return
-    num1 = num1.concat(event.target.textContent);
+    if (event.target.id === 'bs') {
+      num1 = num1.slice(0, -1);
+    } else {
+      num1 = num1.concat(event.target.textContent);
+    }
     display.textContent = num1;
   } else {
     if (event.target.id === 'decimal' && (display.textContent).includes('.')) return
-    num2 = num2.concat(event.target.textContent);
+    if (event.target.id === 'bs') {
+      num2 = num2.slice(0, -1);
+    } else {
+      num2 = num2.concat(event.target.textContent);
+    }
     display.textContent = num2;
   }
 }

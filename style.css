@@ -80,7 +80,11 @@ button {
   border-color: brown;
 }
 
-#link {
+#link, #bs {
   height: 35px;
 }
 
+#bs {
+  font-size: 25px;
+  font-weight: bold;
+}
