@@ -37,7 +37,7 @@ button {
   font-size: 20px;
 }
 
-#equals,#plus,#minus,#multiply,#divide,#clear{
+#equals,.op,#clear{
   border-style: groove;
   border-radius: 4px;
 }
@@ -47,9 +47,17 @@ button {
   border-color: rgb(8, 158, 8);
 }
 
-#plus,#minus,#multiply,#divide{
+#equals:hover {
+  background-color: rgb(12, 176, 12);
+}
+
+.op{
   background-color: rgb(236, 157, 12);
   border-color: rgb(236, 157, 12);
+}
+
+.op:hover{
+  background-color: rgb(221, 142, 0);
 }
 
 #decor {
